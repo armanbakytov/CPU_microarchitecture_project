@@ -92,13 +92,3 @@ This project consists of several interconnected modules that together form a bas
 ## Contributing
 
 Contributions are welcome! Please fork the repository, make improvements, and submit a pull request. For any issues or suggestions, open an issue in the repository.
-
-## License
-
-This project is licensed under the MIT License.
-
-## Acknowledgements
-
-Special thanks to the ELEC0010 teaching team for their guidance and support throughout this lab assignment.
-
-Happy designing and coding!
