@@ -72,15 +72,15 @@ This project consists of several interconnected modules that together form a bas
 
 2. **Compile the Project:**
    - Navigate to the project root directory.
-   - Compile using the following command (replace `<top_module>` with your testbench module name):
+   - Compile using the following command (replace `<top_module.df>` with your testbench module name):
      ```bash
-     iverilog -g2012 -o simulation_out -s <top_module> src/*.sv tb/*.sv
+     iverilog -g 2012 -o simulation_out.vvp <top_moduledf>
      ```
 
 3. **Run the Simulation:**
    - Execute the simulation with:
      ```bash
-     vvp simulation_out
+     vvp simulation_out.vvp
      ```
 
 4. **View Waveforms:**
